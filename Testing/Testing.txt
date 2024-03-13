@@ -1,0 +1,4 @@
+For the sake of simplicity, 
+Username and Password for the user will be as follows
+Username: david
+Password: 123
