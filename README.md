@@ -26,5 +26,6 @@ My proposed project should produce palpable results and benefits once it is comp
 - “How to Build a Web Application Using Java - Javatpoint.” Www.Javatpoint.Com, [https://www.javatpoint.com/how-to-build-a-web-application-using-java](https://www.javatpoint.com/how-to-build-a-web-application-using-java).
 - “JavaScript Basics - Learn Web Development | MDN.” MDN Web Docs, [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics).
 - Joshi, Mohit. “A Detailed Guide on JavaScript Web Development | BrowserStack.” BrowserStack
-#   S e n i o r _ P r o j e c t  
+#   S e n i o r _ P r o j e c t 
+ 
  
