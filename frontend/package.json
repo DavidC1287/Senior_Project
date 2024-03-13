@@ -39,6 +39,9 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "svg-parser": "^2.0.4"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
