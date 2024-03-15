@@ -1,0 +1,12 @@
+.profile-container {
+    position: fixed; /* Position the container */
+    top: 20px; /* Align to the top */
+    left: 20px; /* Align to the left */
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .avatar {
+    margin-right: 10px; /* Margin to the right of the image */
+  }
+  
