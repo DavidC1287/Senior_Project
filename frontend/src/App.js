@@ -25,6 +25,9 @@ function App() {
           setLoggedIn(true); // Set login state to true upon successful login
           // Clear login error upon successful login
           setLoginError('');
+
+          // Change the URL using pushState
+          window.history.pushState({ page: 'Subscriptions' }, 'Subscriptions', '/Subscriptions');
         } else {
           // Handle unsuccessful login
           setLoginError('Invalid username or password. Please try again.');
