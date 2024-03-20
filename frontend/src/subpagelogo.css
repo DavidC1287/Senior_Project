@@ -4,11 +4,11 @@
   
   .logo {
     position: absolute; /* Position the logo absolutely */
-    top: 20px; /* Distance from the top */
-    left: 720px; /* Distance from the left */
-    width: 225px; /* Adjust the width of the logo */
+    top: 15px; /* Distance from the top */
+    left: 730px; /* Distance from the left */
+    width: 250px; /* Adjust the width of the logo */
     height: auto; /* Maintain aspect ratio */
     z-index: 100; /* Set z-index to ensure it's above other content */
   }
-  
+
   

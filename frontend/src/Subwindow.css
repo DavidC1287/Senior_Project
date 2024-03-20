@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #050505; /* Set background color of the entire window */
+  background-color: #5451572e; /* Set background color of the entire window */
 }
 
 .container {
@@ -16,13 +16,29 @@
   border-radius: 10px; /* Add border radius for rounded corners */
   overflow-y: auto; /* Enable vertical scrolling */
   max-height: 100vh; /* Calculate max-height based on viewport height minus padding */
+  z-index: 1; /* Ensure the subscription container is above other elements */
+  position: relative; /* Add position relative to allow z-index to work */
+  scrollbar-width: thin; /* Set the width of the scrollbar */
+  scrollbar-color: #6f6d6d #0e01012f; /* Set the color of the scrollbar thumb and track */
+}
+
+.subscription-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+}
+.subscription-container::-webkit-scrollbar-track {
+  background-color: #f5f5f503; /* Background color of the scrollbar track */
+}
+
+.subscription-container::-webkit-scrollbar-thumb:hover {
+  background-color: #2e2e2e; /* Color of the scrollbar thumb on hover */
 }
 
 .subscription-item {
   display: flex;
   align-items: center;
   margin-bottom: 35px; /* Add margin between subscription items */
-  padding:25px
+  padding: 45px;
 }
 
 .subscription-image {
@@ -34,6 +50,13 @@
 .subscription-details {
   flex: 1; /* Take remaining space */
   font-size: 15px; /* Adjust font size */
+}
+
+.profile-container {
+  border: 10px solid rgb(10, 7, 7);
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 20px;
 }
 
 .cancel-button {

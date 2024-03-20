@@ -23,3 +23,7 @@ My proposed project should produce palpable results and benefits once it is comp
 - Joshi, Mohit. “A Detailed Guide on JavaScript Web Development
 - BrowserStack.” BrowserStack
 - React https://react.dev/
+- Lester Fernandez "Redirect After Login with React Router v6" https://www.youtube.com/watch?v=2lJuOh4YlGM
+- Smoljames "Passing Data Between Frontend and Backend | Node.js" https://www.youtube.com/watch?v=5TxF9PQaq4U&t=2s
+- Arpan Neupane "How to Create a Express/Node + React Project | Node Backend + React Frontend" https://www.youtube.com/watch?v=w3vs4a03y3I&t=299s&ab_channel=ArpanNeupane
+- Dipesh Malvia "Node.js and Express.js - Complete Course for Beginners | Learn Node.js in 6 Hours" https://www.youtube.com/watch?v=ekRpc5YgVZU&ab_channel=DipeshMalvia

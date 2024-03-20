@@ -10,7 +10,8 @@ import Crunch from './Crunch.png';
 import AP from './AmazonPrime.png';
 import './Subwindow.css';
 import logo from './S.png'; // Import the logo
-import './subpagelogo.css'
+import './subpagelogo.css'; // Import the border styles
+
 function Subwindow() {
   const [subscriptionOptions, setSubscriptionOptions] = useState([]);
 
@@ -42,8 +43,12 @@ function Subwindow() {
 
   return (
     <div className="subscription-window">
-      <img src={logo} alt="Logo" className="logo" /> {/* Include the logo here */}
-      <Profile /> {/* Include the Profile component here */}
+      <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo" />
+      </div>
+      <div className="profile-container">
+        <Profile />
+      </div>
       <div className="subscription-container">
         {subscriptionOptions.map(subscription => (
           <div key={subscription.id} className="subscription-item">
@@ -51,7 +56,7 @@ function Subwindow() {
             <div className="subscription-details">
               <h2>{subscription.name}</h2>
               <p>Due Date: {getRandomDueDate()}</p>
-              <p>Payment Card Info: 1234 1234 1234 1234</p>
+              <p>Payment Card Info: **** **** **** 1234</p>
             </div>
             <button className="cancel-button">Cancel</button>
           </div>
