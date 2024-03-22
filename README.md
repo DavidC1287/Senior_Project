@@ -21,7 +21,6 @@ My proposed project should produce palpable results and benefits once it is comp
 
 #### Bibliography:
 - Joshi, Mohit. “A Detailed Guide on JavaScript Web Development
-- BrowserStack.” BrowserStack
 - React https://react.dev/
 - Lester Fernandez "Redirect After Login with React Router v6" https://www.youtube.com/watch?v=2lJuOh4YlGM
 - Smoljames "Passing Data Between Frontend and Backend | Node.js" https://www.youtube.com/watch?v=5TxF9PQaq4U&t=2s
