@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './S.png';
 import './App.css';
-import Sub from './Subwindow'; // Import the BlankPage component
+import Sub from './Subwindow'; 
 
 function App() {
   const [loginData, setLoginData] = useState({ username: '', password: '' });

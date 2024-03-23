@@ -4,22 +4,22 @@ const app = express();
 // Middleware to parse JSON bodies
 app.use(express.json());
 
-// In-memory user data (for demo purposes, replace with database in a real project)
+// In-memory user data (for demo purposes, will not use actual card information)
 const users = [{ username: 'user', password: '123' }];
 
 app.get('/login', (req, res) => {
-  // Extract username and password from the request query parameters
+  //  username and password from the request query parameters
   const { username, password } = req.query;
 
-  // Find the user in the users array
+  // the user in the users array
   const user = users.find(u => u.username === username && u.password === password);
 
-  // Check if the user exists
+  // check if the user exists
   if (user) {
-    // If credentials are correct, send a success response
+    // if credentials are correct, send a success response
     res.json({ success: true });
   } else {
-    // If credentials are incorrect, send an error response
+    // if credentials are incorrect, send an error response
     res.status(401).json({ success: false, message: 'Invalid username or password' });
   }
 });

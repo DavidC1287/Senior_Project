@@ -1,0 +1,11 @@
+.about-us-window {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    width: 300px;
+    background-color: #ffffff1a;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+  }
+  

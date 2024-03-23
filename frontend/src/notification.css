@@ -1,0 +1,21 @@
+.notification {
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    background-color: #f0f1f071;
+    color: rgb(11, 9, 9);
+    padding: 15px 20px;
+    border-radius: 5px;
+    animation: slideIn 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
