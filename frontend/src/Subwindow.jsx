@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Profile from './userprofile';
 import Notification from './notification';
-import AboutUs from './aboutus'; // Import the AboutUs component
+import AboutUs from './aboutus'; 
 import './Subwindow.css';
 import logo from './S.png';
 import Spotify from './Spotify.png';
