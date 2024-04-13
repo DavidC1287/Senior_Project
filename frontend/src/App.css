@@ -3,36 +3,18 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /*Sets the height of elements with the .App-logo class to 40% of the viewport's smaller dimension.*/
+  pointer-events: none; /*Disables pointer events on these elements*/
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-image: linear-gradient(to bottom right, #414040, #150a44); /* Gradient background */
-  min-height: 100vh;
+  min-height: 100vh;/*Sets the minimum height of elements with this class to cover the entire viewport vertically*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin); /*sets the font size dynamically based on the viewport size, starting at 10 pixels and increasing by 2% of the viewport's smaller dimension*/
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

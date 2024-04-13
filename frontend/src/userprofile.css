@@ -1,21 +1,21 @@
 .profile-container {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
+  position: fixed; /* Fix the position of the profile container */
+  top: 20px; /* Position it 20 pixels from the top */
+  left: 20px; /* Position it 20 pixels from the left */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
 }
 
 .avatar {
-  width: 150px; 
-  height: 150px;
-  border-radius: 50%;
-  margin-bottom: 10px; 
+  width: 150px; /* Set the width of the avatar image */
+  height: 150px; /* Set the height of the avatar image */
+  border-radius: 50%; /* Make the avatar image round */
+  margin-bottom: 10px; /* Add space below the avatar */
 }
 
 .profile-name {
-  margin-top: 0;
-  margin-bottom: 0; 
-  font-size: 25px; 
+  margin-top: 0; /* Remove top margin for the profile name */
+  margin-bottom: 0; /* Remove bottom margin for the profile name */
+  font-size: 25px; /* Set the font size of the profile name */
 }

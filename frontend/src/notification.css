@@ -1,21 +1,20 @@
-.notification {
-    position: fixed;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
-    background-color: #f0f1f071;
-    color: rgb(11, 9, 9);
-    padding: 15px 20px;
-    border-radius: 5px;
+.notification { 
+    position: fixed; /* Position the notification 50% from the top */
+    top: 50%; /* Position the notification 15px from the right */
+    right: 15px; /* Use transform to center the notification vertically */
+    transform: translateY(-50%); /* Set the background color with some opacity */
+    background-color: #f0f1f071; /* Set the text color */
+    color: rgb(11, 9, 9); /* Add padding to the notification */
+    padding: 15px 20px; /* Add border-radius for rounded corners */
+    border-radius: 5px; /* Define the animation for the notification */
     animation: slideIn 0.5s ease-in-out forwards;
-  }
-  
-  @keyframes slideIn {
-    from {
-      transform: translateX(100%);
+}
+
+@keyframes slideIn { /* Define the animation keyframes */
+    from { /* Start the animation from the right */
+        transform: translateX(100%);
     }
-    to {
-      transform: translateX(0);
+    to { /* End the animation at the original position */
+        transform: translateX(0);
     }
-  }
-  
+}

@@ -1,4 +1,49 @@
+Side Note: Due to submitting the source code as a pdf rather than the full folder,
+There may be some issues if you decided to run my project as some of the packages I installed will not be present in the pdfs.
+If there are any issues please let me know and I will be happy to show you my project in action. 
+
+##Testing Approach
+The testing approach for this project primarily involved iterative development and continuous testing during the development process. 
+Here's how testing was conducted:
 For the sake of simplicity, 
-Username and Password for the user will be as follows
-Username: david
+Username and Password for the user will be as follows:
+Username: user
 Password: 123
+The user must first open two terminals
+
+In one should be the directory to the backend (C:\Users\david\Downloads\Senior_Project\Senior_Project\backend)
+To start what I did was first run 'npm init -y' to generate a package.json file
+Next was npm 'i express'
+Then 'npm i nodemon -D'
+These allow for automatic restart of the server when changes are made
+Once I installed these packages, I ran the backend code first using 'npm run dev' in the terminals
+
+In the other should be the frontend (C:\Users\david\Downloads\Senior_Project\Senior_Project\frontend)
+Once in the frontend I was able to run 'npm start' to launch my website
+From here I was able to to see live changes to website as well as interact with to see how the user interface felt along with the functionality. 
+
+##Iterative Development and Real-Time Feedback
+Using React's real-time feedback mechanism, I could observe changes immediately, allowing for rapid iterations and quick validation of functionality adjustments.
+
+##Continuous Testing
+Continuous testing was essential to the development cycle, ensuring that each new feature or modification was thoroughly validated. 
+Real-time feedback not only provided instant visibility into changes but also allowed for trial-and-error testing to quickly address any issues encountered.
+
+##Functional Testing
+Functional testing used a comprehensive examination of core functionalities, including user authentication, login procedures, and subscription management capabilities. 
+Each feature was tested to ensure seamless performance and accurate data processing.
+
+##Usability Testing and User Feedback
+Usability testing played a crucial role in evaluating the user interface's intuitiveness, accessibility, and overall user experience. 
+Feedback from test users provided valuable insights for refining the interface and optimizing user interaction workflows.
+
+##Test Cases and Validation
+While traditional test cases were not explicitly used, React's real-time feedback mechanism allowed for dynamic validation of features and functionalities. 
+This approach ensured that every aspect of the application underwent thorough testing and validation before deployment.
+
+##Benefits of Real-Time Feedback
+The use of React's real-time feedback significantly enhanced development efficiency and testing effectiveness. 
+Immediate visibility into changes, along with quick access to online resources for issue resolution, streamlined the development process and accelerated project progression.
+
+By emphasizing the advantages of real-time feedback and iterative development, this testing approach prioritized agility, accuracy, and user-friendly design, 
+ultimately contributing to the project's success.

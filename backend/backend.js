@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
 
-// Middleware to parse JSON bodies
+// middleware to parse JSON bodies
 app.use(express.json());
 
-// In-memory user data (for demo purposes, will not use actual card information)
+// in-memory user data (for demo purposes, will not use actual card information)
 const users = [{ username: 'user', password: '123' }];
 
 app.get('/login', (req, res) => {
